@@ -3,10 +3,11 @@ Este es un proyecto simple cuenta con alertas sweet aler y roles de usuario muy 
 
 LOGIN ADMIN:
 
-admin
-1234
+user:  admin
+pass:  1234
+
 
 LOGIN CLIENTE
 
-cliente
-1234
+user:  cliente
+pass:  1234
