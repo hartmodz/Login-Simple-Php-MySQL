@@ -30,12 +30,13 @@ if (isset($_POST['user'])) {                //conexao con form login btn
     <script src="assets/jdn/x.js"></script>
 </head>
 <body>
+	<?php echo $msg; ?>
     <section class="w3l-mockup-form">
         <div class="container">
             <div class="workinghny-form-grid">
                 <div class="main-mockup">
                     <div class="content-wthree">
-					<div class="social-icons">LOGIN FORM</div>
+		<div class="social-icons">LOGIN FORM</div>
                     <h2>HARTMODz</h2>
                            <form action="" method="post" autocomplete="off">
                             <input type="text" class="email" name="user" placeholder="Usuario">
@@ -48,4 +49,3 @@ if (isset($_POST['user'])) {                //conexao con form login btn
             </div>
     </section> 
 </body></html>
-<?php echo $msg; ?>
